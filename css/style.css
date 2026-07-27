@@ -1,19 +1,30 @@
 
-
-
-/* 
 a{
     text-decoration: none;
 }
-
+nav .nav-item{
+    padding: 0px 20px;
+}
+ 
  .nav-btn{
 background: #E5745D;
 border: 2px solid rgb(231, 224, 224);
 color: white;
 padding: 21px 39px;
+transition: .4s;
+border: 2px solid transparent;
 }
 
+.nav-link:hover{
+    color: #E5745D;
+}
 
+ .nav-btn:hover{
+background: transparent;
+border: 2px solid  #E5745D;
+color: #E5745D;
+ }
+/*
 .banner .col-lg-7{
 background: #00413D;
 height: 850px;
