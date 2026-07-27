@@ -1,38 +1,95 @@
-
+ /* ========================================
+        commom css starts
+========================================== */
 a{
     text-decoration: none;
 }
+
+ .common-btn{
+    background: #E5745D;
+    border: 2px solid rgb(231, 224, 224);
+    color: white;
+    padding: 21px 39px;
+    transition: .4s;
+    border: 2px solid transparent;
+}
+ .common-btn:hover{
+    background: transparent;
+    border: 2px solid  #E5745D;
+    color: #E5745D;
+ }
+
+ /* ========================================
+        commom css ends
+========================================== */
+ /* ========================================
+        navbar css starts
+========================================== */
+
 nav .nav-item{
     padding: 0px 20px;
 }
- 
- .nav-btn{
-background: #E5745D;
-border: 2px solid rgb(231, 224, 224);
-color: white;
-padding: 21px 39px;
-transition: .4s;
-border: 2px solid transparent;
-}
-
 .nav-link:hover{
     color: #E5745D;
 }
 
- .nav-btn:hover{
-background: transparent;
-border: 2px solid  #E5745D;
-color: #E5745D;
+ /* ========================================
+        navbar css ends
+========================================== */
+ /* ========================================
+        banner css starts
+========================================== */
+
+ .banner .col-lg-6{
+    background: #00413D;
+    height: 850px;
  }
-/*
-.banner .col-lg-7{
-background: #00413D;
-height: 850px;
-}
+
 .banner .col-lg-4 img{
 width: 100%;
-height: 100%;
-} */
+height:  850px;
+} 
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.banner .overlay {
+  position: absolute;
+  top: 375px;
+  left: 321px;
+  transform: translateY(-50%);
+  /* white-space: nowrap; CRITICAL: Prevents 100px text from collapsing vertically  */
+  z-index: 10; /* Ensures text stays on top of the image */
+  width: 834px;
+  height: 220px;
+}
+.banner .overlay h1{
+  font-family: "Vollkorn", serif;
+  font-size: 100px; 
+  font-weight: 700;
+  color: white;
+
+}
+.banner .overlay p{
+  font-family: "Jost", sans-serif;
+  font-size: 20px; 
+  font-weight: 400;
+  color: rgba(255, 255, 255,.5);
+margin-bottom: 50px;
+}
+.banner .overlay p span{
+  font-family: "Jost", sans-serif;
+  font-size: 20px; 
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+
+}
+ /* ========================================
+        banner css ends
+========================================== */
+
 /* .banner h1{ */
     /* color: white; */
      /* width: 834px;  */
