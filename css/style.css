@@ -60,11 +60,12 @@ height:  850px;
   top: 375px;
   left: 321px;
   transform: translateY(-50%);
-  /* white-space: nowrap; CRITICAL: Prevents 100px text from collapsing vertically  */
   z-index: 10; /* Ensures text stays on top of the image */
   width: 834px;
   height: 220px;
 }
+/* we needed to make change in h1 instead of overlay 
+because overlay is a div, and we want to change h1 not the div */
 .banner .overlay h1{
   font-family: "Vollkorn", serif;
   font-size: 100px; 
@@ -88,6 +89,44 @@ margin-bottom: 50px;
 }
  /* ========================================
         banner css ends
+========================================== */
+ /* ========================================
+        services css starts
+========================================== */
+.services .first-div{
+    margin-top: 220px;
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .first-div img{
+    /* width is aotu to make the arrow cear */
+  width: auto;
+  height: 12%;
+}
+.services .first-div p{
+   margin: 0; 
+   /* there is some additional margin that needed to be removed */
+   padding-left: 9px;
+    font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
+
+.services h1{
+  font-family: "Vollkorn", serif;
+  font-size: 50px; 
+  font-weight: 500;
+  color: black;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+
+ /* ========================================
+        services css ends
 ========================================== */
 
 /* .banner h1{ */
