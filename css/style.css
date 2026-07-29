@@ -4,7 +4,13 @@
 a{
     text-decoration: none;
 }
-
+ h3{
+  font-family: "Vollkorn", serif;
+  font-size: 50px; 
+  font-weight: 500;
+  color: black;
+}
+/* ---------------button--------------------- */
  .common-btn{
     background: #E5745D;
     border: 2px solid rgb(231, 224, 224);
@@ -20,17 +26,10 @@ a{
  }
 
 
- /* ========================================
-        commom css --- Cad part
-========================================== */
- .card{
-  padding-top: 50px ;
-  padding-left: 35px;
-  padding-bottom: 50px;
-  margin-bottom: 120px;
 
-  
-}
+  /* --------- Cad part----------------- */
+
+
 /* .row{
       display: flex;
       justify-content: space-evenly;
@@ -74,9 +73,28 @@ a{
  
 }
 
- /* ========================================
-        commom css --- Cad part
-========================================== */
+/* ----------small arrow part + writting---------------------- */
+
+ .first-div{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+ .first-div img{
+  
+  width: auto;
+  height: 12%;
+}
+ .first-div p{
+  margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
  /* ========================================
         commom css ends
 ========================================== */
@@ -157,25 +175,7 @@ margin-bottom: 50px;
 .services .first-div{
     margin-top: 220px;
     margin-bottom: 11px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.services .first-div img{
-    /* width is aotu to make the arrow cear */
-  width: auto;
-  height: 12%;
-}
-.services .first-div p{
-   margin: 0; 
-   /* there is some additional margin that needed to be removed */
-   padding-left: 9px;
-    font-family: "Vollkorn", serif;
-  font-size: 18px; 
-  font-weight: 500;
-  color: #E5745D;
-}
-
 .services h1{
   font-family: "Vollkorn", serif;
   font-size: 50px; 
@@ -183,6 +183,12 @@ margin-bottom: 50px;
   color: black;
    text-align: center;
    margin-bottom: 40px;
+}
+.services  .card{
+  padding-top: 50px ;
+  padding-left: 35px;
+  padding-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 
@@ -225,34 +231,12 @@ margin-bottom: 50px;
 
 
 .about-me .first-div{
-    /* margin-top: 220px;
-    margin-bottom: 11px; */
-    display: flex;
     justify-content: start; 
-    align-items: center; 
-    /* si the arrow will be in middle */
-}
-.about-me .first-div img{
-    /* width is aotu to make the arrow cear */
-  width: auto;
-  height: 12%;
-}
-.about-me .first-div p{
-   margin: 0; 
-   /* there is some additional margin that needed to be removed */
-   padding-left: 9px;
-    font-family: "Vollkorn", serif;
-  font-size: 18px; 
-  font-weight: 500;
-  color: #E5745D;
 }
 
-.about-me h3{
-  font-family: "Vollkorn", serif;
-  font-size: 50px; 
-  font-weight: 500;
-  color: black;
-}
+
+
+
 .about-me p{
   width: 570px;
   margin-bottom: 50px;
@@ -271,5 +255,101 @@ margin-bottom: 50px;
 
  /* ========================================
         About me css ends
+========================================== */
+ /* ========================================
+        project css starts
+========================================== */
+.project{
+  margin-bottom: 120px;
+}
+.project .first-div{
+    justify-content: start; 
+}
+.project .heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 40px;
+}
+.project .heading .fa-arrow-right {
+  background: #E5745D;
+  border: 2px solid  #E5745D;
+  color: rgb(237, 243, 243);
+  padding: 5px 5px;
+}
+.project .heading .fa-arrow-left {
+  background: transparent;
+   border: 2px solid  rgba(0, 0, 0,.5);
+  color: black;
+  padding: 5px 5px;
+}
+.project  .card{
+  padding: 0px 0px;
+}
+ .project .card-img-top{
+  width: 370px;
+  height: 270px;
+ }
+
+.project  .card img{
+   width: 100%;
+}
+.project  h6{
+  font-family: "Vollkorn", serif;
+  font-size: 14px; 
+  font-weight: 500;
+  color: #E5745D;
+ 
+}
+.project  .card-body{
+  margin-left: 20px;
+}
+.project  .card-title{
+  font-family: "Vollkorn", serif;
+  font-size: 22px; 
+  font-weight: 500;
+  color:black;
+}
+.project  p{
+  font-family: "Jost", sans-serif;
+  font-size: 14px; 
+  font-weight: 400;
+  color:rgba(0, 0, 0,.7);
+}
+/* .project  .project-last{
+  display: flex;
+} */
+
+.project .project-arrow {
+  align-items: center;
+
+}
+.project .fa-arrow-right-long{
+
+     bottom: 10px;
+    left: 155px;
+
+}
+.project .fa-arrow-right-long:hover{
+  left: 165px;
+}
+.project .card a{
+  font-family: "Jost", sans-serif;
+  font-size: 16px; 
+  font-weight: 400;
+  color:rgba(0, 0, 0,.7);
+}
+.project .row{
+  margin-bottom: 60px;
+}
+
+ .project .button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center;     /* Optional: Centers vertically if container has height */
+}
+
+ /* ========================================
+        project css ends
 ========================================== */
 
