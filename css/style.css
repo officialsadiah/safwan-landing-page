@@ -189,53 +189,87 @@ margin-bottom: 50px;
  /* ========================================
         services css ends
 ========================================== */
+ /* ========================================
+        About me css starts
+========================================== */
+.about-me {
+  margin-bottom: 120px;
+}
+.about-me .col-lg-8 {
+  width: 370px;
+  height: 480px;
+    margin-bottom: 80px;
 
-/* .banner h1{ */
-    /* color: white; */
-     /* width: 834px;  */
-    /* font-family: "Vollkorn", serif;
-    font-size: 100px;
-    font-weight: 700;
-    padding-top: 221px;
-} */
-/* .banner p{
-    color: rgba(255, 255, 255, 0.5);
-      width: 670px;  
-    font-family: "Jost", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    padding-bottom: 50px;
-   
+}
+.about-me .col-lg-8 img{
+  width: 100%;
+  height: 100%;
+}
+.about-me .col-lg-4 {
+   width: 225px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* to make a gap between pic 2,3  */
+ 
+}
+.about-me .col-lg-4 img{
+ width: 100%;
+ height: 50%;
+    flex: 1;
+    /* so the flex apear */
 }
 
-.banner .col-lg-5{
-    background: gray;
+
+
+.about-me .first-div{
+    /* margin-top: 220px;
+    margin-bottom: 11px; */
+    display: flex;
+    justify-content: start; 
+    align-items: center; 
+    /* si the arrow will be in middle */
 }
-.services{
-    padding-top: 220px;
-    padding-bottom: 120px;
+.about-me .first-div img{
+    /* width is aotu to make the arrow cear */
+  width: auto;
+  height: 12%;
 }
-.services p{
-  text-align: center;
-  color:#E5745D ;
+.about-me .first-div p{
+   margin: 0; 
+   /* there is some additional margin that needed to be removed */
+   padding-left: 9px;
+    font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
+
+.about-me h3{
   font-family: "Vollkorn", serif;
-    font-size: 18px;
-    font-weight: 500;
-} */
-
-/* .services h1{ */
-    /* width: 517px; */
-  /* text-align: center;
-  color:#00413D ;
-  font-family: "Vollkorn", serif;
-    font-size: 50px;
-    font-weight: 500;
-    display: flex; */
-    /* align-items: center;
-    align-content: center; */
-    /* justify-content: center;
-    margin-bottom: 40px;
+  font-size: 50px; 
+  font-weight: 500;
+  color: black;
 }
-.services .card img{
-    width: 38%;
-} */
+.about-me p{
+  width: 570px;
+  margin-bottom: 50px;
+   font-family: "Jost", sans-serif;
+   font-size: 16px; 
+  font-weight: 400;
+  color: rgba(0, 0, 0,.7);
+}
+
+.about-me .skills {
+  width: 1320px;
+}
+.about-me .skills img{
+  width: 100%;
+}
+
+ /* ========================================
+        About me css ends
+========================================== */
+
