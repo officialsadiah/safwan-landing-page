@@ -19,6 +19,64 @@ a{
     color: #E5745D;
  }
 
+
+ /* ========================================
+        commom css --- Cad part
+========================================== */
+ .card{
+  padding-top: 50px ;
+  padding-left: 35px;
+  padding-bottom: 50px;
+  margin-bottom: 120px;
+
+  
+}
+/* .row{
+      display: flex;
+      justify-content: space-evenly;
+} */
+
+ .card-body{
+  padding-top: 26px ;
+  padding-left: 0px;
+ 
+  
+}
+ .card img{
+  width: 20%;
+}
+ .card-title{
+   font-family: "Vollkorn", serif;
+  font-size: 24px; 
+  font-weight: 800;
+  color: black;
+}
+ .card-text{
+ font-family: "Jost", sans-serif;
+   font-size: 16px; 
+  font-weight: 400;
+  color: rgba(0, 0, 0,.7);
+  width: 245px;
+  height: 72px;
+}
+
+/* -------------arrow------------------ */
+.fa-arrow-right-long{
+  position: absolute;
+     bottom: 36px;
+    left: 44px;
+  transform: translate(-50% , -50%);
+  transition: .4s;
+}
+.fa-arrow-right-long:hover{
+  color: #E5745D;
+  left: 55px;
+ 
+}
+
+ /* ========================================
+        commom css --- Cad part
+========================================== */
  /* ========================================
         commom css ends
 ========================================== */
@@ -93,6 +151,9 @@ margin-bottom: 50px;
  /* ========================================
         services css starts
 ========================================== */
+.services{
+  position: relative;
+}
 .services .first-div{
     margin-top: 220px;
     margin-bottom: 11px;
