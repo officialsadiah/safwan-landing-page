@@ -265,6 +265,14 @@ margin-bottom: 50px;
 .project .first-div{
     justify-content: start; 
 }
+.project .first-div p{
+      margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
 .project .heading{
   display: flex;
   justify-content: space-between;
@@ -348,8 +356,183 @@ margin-bottom: 50px;
   justify-content: center; /* Centers the button horizontally */
   align-items: center;     /* Optional: Centers vertically if container has height */
 }
+.project .card a:hover {
+  color:  #E5745D;
+ 
+}
+.project .card a:hover .fa-arrow-right-long{
+  color:  #E5745D;
+  left: 165px;
+} 
+
 
  /* ========================================
         project css ends
+========================================== */
+ /* ========================================
+        My Portfolio css starts
+========================================== */
+.Portfolio{
+  margin-bottom: 120px;
+}
+
+.Portfolio .first-div p{
+  margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
+.Portfolio .heading{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 24px;
+}
+.Portfolio .list{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  column-gap: 31px;
+  
+}
+.Portfolio .card{
+margin-top: 30px;
+}
+.Portfolio .card-img-top{
+  width: 570px;
+  height: 480px;
+}
+.Portfolio .card img{
+   width: 100%;
+}
+.Portfolio .card-body{
+  background: #00413D;
+}
+.Portfolio .card-body h4{
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-size: 24px; 
+  font-weight: 600;
+  padding-left: 18px;
+}
+.Portfolio .card-body p{
+  color: rgb(255, 255, 255,.7);
+   font-family: "Jost", sans-serif;
+  font-size: 14px; 
+  font-weight: 400;
+  padding-left: 18px;
+}
+ /* ========================================
+        My Portfolio css ends
+========================================== */
+ /* ========================================
+        Blog css starts
+========================================== */
+.blog{
+  margin-bottom: 120px;
+}
+.blog .first-div p{
+      margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
+.blog .heading{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 40px;
+}
+.blog  .card{
+  padding: 0px 0px;
+}
+ .blog .card-img-top{
+  width: 370px;
+  height: 270px;
+ }
+
+.blog  .card img{
+   width: 100%;
+}
+.blog  h6{
+  font-family: "Vollkorn", serif;
+  font-size: 14px; 
+  font-weight: 500;
+  color: #E5745D;
+ 
+}
+.card-date{
+  display: flex;
+  justify-content: space-between;
+}
+.blog  .card-date p{
+  font-family: "Vollkorn", serif;
+  font-size: 14px; 
+  font-weight: 500;
+  color: rgba(9, 9, 9,.5);
+ 
+}
+.blog  .card-body{
+  margin-left: 20px;
+}
+.blog  .card-title{
+  font-family: "Vollkorn", serif;
+  font-size: 22px; 
+  font-weight: 500;
+  color:black;
+}
+.blog  p{
+  font-family: "Jost", sans-serif;
+  font-size: 14px; 
+  font-weight: 400;
+  color:rgba(0, 0, 0,.7);
+}
+/* .project  .project-last{
+  display: flex;
+} */
+
+.blog .project-arrow {
+  align-items: center;
+
+}
+
+
+.blog .card a{
+  font-family: "Jost", sans-serif;
+  font-size: 16px; 
+  font-weight: 400;
+  color:rgba(0, 0, 0,.7);
+}
+.blog .row{
+  margin-bottom: 60px;
+}
+
+ .blog .button-container {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+  align-items: center;     /* Optional: Centers vertically if container has height */
+}
+
+.blog .card a:hover {
+  color:  #E5745D;
+ 
+}
+.blog .fa-arrow-right-long{
+
+     bottom: 10px;
+    left: 115px;
+
+}
+.blog .card a:hover .fa-arrow-right-long{
+  color:  #E5745D;
+  left: 145px;
+} 
+
+ /* ========================================
+        Blog css ends
 ========================================== */
 
