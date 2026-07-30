@@ -293,6 +293,7 @@ margin-bottom: 50px;
 }
 .project  .card{
   padding: 0px 0px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0,.2);
 }
  .project .card-img-top{
   width: 370px;
@@ -428,6 +429,145 @@ margin-top: 30px;
         My Portfolio css ends
 ========================================== */
  /* ========================================
+        feedback css starts
+========================================== */
+.feedback{
+  padding-bottom: 165px;
+  padding-top: 126px;
+  margin-bottom: 120px;
+  background: #F9F4F1;
+}
+.feedback .first-div p{
+      margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+}
+.feedback .heading{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 40px;
+}
+
+.feedback .row-comment {
+ justify-content: space-between;
+}
+.feedback .comment{
+  display: flex;
+  width: 570px !important;
+  height: 150px !important;
+  border-top: 5px solid rgb(229, 116, 93);
+   box-shadow: 10px 10px 5px rgba(229, 116, 93,.2) ;
+   background: white;
+   margin-bottom: 30px;
+   align-items: center;
+   
+}
+.feedback .comment p{
+color: rgba(0, 0, 0, 0.7);
+   font-family: "Jost", sans-serif;
+  font-size: 16px; 
+  font-weight: 400;
+  padding-left: 18px;
+}
+.feedback .row-profile{
+  display: block;
+    /* position: relative; */
+
+}
+.feedback .profile{
+  display: flex;
+  position: relative;
+  border: 2px solid  rgb(229, 116, 93);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+   margin-left: 40px; 
+
+}
+
+.feedback .client-img{
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  /* border-radius: 50%; */
+  border: 3px solid #d9d9d9;
+
+}
+.feedback .client-review{
+    position: absolute;
+    left: 95px;
+    top: 8px;
+}
+.feedback .client-review h4{
+  width: 130px;
+  font-family: "Vollkorn", serif;
+  font-size: 20px; 
+  font-weight: 600;
+  color: #080808;
+}
+.feedback .client-review p{
+  width: 130px;
+  font-size: 14px; 
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+   font-family: "Jost", sans-serif;
+}
+.feedback .stars{
+display: flex;
+}
+.feedback .fa-star {
+color: #E5745D;
+}
+.feedback .fa-star-half-stroke {
+color: #E5745D;
+}
+
+
+
+ /* ========================================
+        feedback css ends
+========================================== */
+ /* ========================================
+        contatc css starts
+========================================== */
+.contact {
+  margin-bottom: 120px;
+}
+.contact .col-lg-4{
+  width: 470px;
+  height: 586px;
+  background: #d9d9d9;
+}
+.contact .col-lg-7{
+margin-left: 20px;
+}
+.contact .first-div p{
+      margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+
+}
+.contact .heading{
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+  margin-bottom: 40px;
+}
+.contact .first-div{
+    justify-content: start; 
+}
+ /* ========================================
+        contatc css ends
+========================================== */
+ /* ========================================
         Blog css starts
 ========================================== */
 .blog{
@@ -449,6 +589,7 @@ margin-top: 30px;
 }
 .blog  .card{
   padding: 0px 0px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0,.2);
 }
  .blog .card-img-top{
   width: 370px;
