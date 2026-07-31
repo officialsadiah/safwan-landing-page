@@ -392,12 +392,40 @@ margin-bottom: 50px;
   margin-bottom: 24px;
 }
 .Portfolio .list{
+  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center; 
   column-gap: 31px;
-  
+  cursor: pointer;
 }
+li{
+  position: relative;
+  overflow: hidden;
+}
+li:hover{
+  overflow: visible;
+}
+li::after{
+  width: 0%;
+  height: 2px;
+  background: #E5745D;
+  position: absolute;
+  bottom: -3px;
+  left: 0px;
+  content: "";
+  transition: .4s;
+}
+li:hover::after{
+  width: 100%;
+}
+/* .Portfolio .list p{
+  border-bottom: 3px solid transparent;
+}
+.Portfolio .list p:hover{
+  border-bottom: 3px solid #E5745D;
+} */
+
 .Portfolio .card{
 margin-top: 30px;
 }
