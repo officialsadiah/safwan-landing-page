@@ -228,6 +228,15 @@ margin-bottom: 50px;
     /* so the flex apear */
 }
 
+.about-me .first-div p{
+      margin: 0; 
+  padding-left: 9px;
+  font-family: "Vollkorn", serif;
+  font-size: 18px; 
+  font-weight: 500;
+  color: #E5745D;
+
+}
 
 
 .about-me .first-div{
