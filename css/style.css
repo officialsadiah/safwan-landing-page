@@ -116,7 +116,7 @@ nav .nav-item{
         banner css starts
 ========================================== */
 
- .banner .col-lg-6{
+ .banner {
     background: #00413D;
     height: 850px;
  }
@@ -563,6 +563,17 @@ margin-left: 20px;
 }
 .contact .first-div{
     justify-content: start; 
+}
+.client-form .client-info{
+  padding-bottom: 12px;
+ border: 1px solid transparent;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+ margin-bottom: 50px;
+}
+.client-form .form-control{
+ border: 1px solid transparent;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.177);
+ margin-bottom: 60px;
 }
  /* ========================================
         contatc css ends
