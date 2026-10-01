@@ -28,6 +28,3 @@ A responsive single-page portfolio website for a UI/UX designer, built from a vi
 - Bootstrap grid system for all card layouts
 - Google Fonts (Vollkorn, Jost, Poppins)
 - CSS-only underline animations on portfolio filter tabs
-
-## Getting Started
-
